@@ -1,0 +1,71 @@
+.flex{
+    display: flex;
+}
+
+.flex-center  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.space-around{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.ma-10{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.dock {
+    overflow: hidden;
+    background-color:rgb(250, 237, 237);
+    opacity: 0.2;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 10%;
+
+}
+
+.topBar{
+    background-color:rgb(250, 237, 237);
+    opacity: 0.2;
+}
+
+div {
+    display: inline;
+}
+
+body {
+    height: 100vh;
+    user-select: none;
+    background-image: url("macos-big-sur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
